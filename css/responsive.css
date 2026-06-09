@@ -94,3 +94,43 @@
     }
 
 }
+
+@media (max-width: 768px) {
+
+    .about-grid,
+    .services-grid,
+    .benefits-grid,
+    .testimonial-grid,
+    .gallery-grid,
+    .contact-cards,
+    .payments-grid,
+    .before-after-grid {
+        grid-template-columns: 1fr !important;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .card,
+    .service-card,
+    .payment-card,
+    .testimonial,
+    .contact-card {
+        width: 100%;
+        max-width: 420px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding-bottom: 80px;
+        text-align: center;
+    }
+}
