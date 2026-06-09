@@ -174,3 +174,23 @@ body {
 main {
     flex: 1;
 }
+
+@media (max-width: 768px) {
+
+    input,
+    select,
+    textarea {
+        width: 100%;
+        padding: 14px;
+        font-size: 16px; /* importante pro iOS não quebrar */
+    }
+
+}
+
+form {
+    width: 100%;
+}
+
+input, select, textarea {
+    box-sizing: border-box;
+}
