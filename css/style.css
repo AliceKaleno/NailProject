@@ -9,6 +9,11 @@
     scroll-behavior:smooth;
 }
 
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 :root{
 
     --primary:#805B10;
@@ -739,7 +744,7 @@ footer p{
 
     font-size:2rem;
 
-    z-index:999;
+    z-index:9999;
 
     box-shadow:
     0 10px 30px rgba(37,211,102,.4);
