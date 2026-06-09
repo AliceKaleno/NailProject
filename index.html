@@ -648,9 +648,11 @@
 
     </select>
 
-    <input id="data" type="date">
+<input id="data" type="text" placeholder="Selecione a data"
+       onfocus="this.type='date'" onblur="if(!this.value)this.type='text'">
 
-    <input id="horario" type="time">
+<input id="horario" type="text" placeholder="Selecione o horário"
+       onfocus="this.type='time'" onblur="if(!this.value)this.type='text'">
 
     <textarea id="mensagem" placeholder="Mensagem"></textarea>
 
