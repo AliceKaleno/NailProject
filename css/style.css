@@ -1452,3 +1452,7 @@ footer p{
 
     font-weight:700;
 }
+
+body {
+    padding-top: 90px;
+}
