@@ -1,0 +1,96 @@
+@media (max-width: 768px) {
+  .header .container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  nav {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media(max-width: 992px){
+
+    header .container{
+
+        position:relative;
+    }
+
+    .menu-toggle{
+
+        display:block;
+    }
+
+    nav{
+
+        position:absolute;
+
+        top:100%;
+
+        left:0;
+
+        width:100%;
+
+        background:white;
+
+        display:flex;
+
+        flex-direction:column;
+
+        align-items:center;
+
+        gap:20px;
+
+        padding:25px;
+
+        box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+        opacity:0;
+
+        visibility:hidden;
+
+        transform:translateY(-20px);
+
+        transition:.3s;
+    }
+
+    nav.active{
+
+        opacity:1;
+
+        visibility:visible;
+
+        transform:translateY(0);
+    }
+
+}
+
+@media(max-width:768px){
+
+    .hero-logo{
+
+        width:120px;
+
+        height:120px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .floating-logo{
+
+        left:20px;
+        top:90px;
+    }
+
+    .floating-logo img{
+
+        width:80px;
+        height:80px;
+    }
+
+}
