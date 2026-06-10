@@ -1469,7 +1469,7 @@ body {
 
 .footer-dev a{
 
-    color:#D3AF37;
+    color:#ffffff;
 
     text-decoration:none;
 
@@ -1486,5 +1486,5 @@ body {
 
 .footer-dev a:hover{
 
-    color:#6ec1ff;
+    color:#D3AF37;
 }
